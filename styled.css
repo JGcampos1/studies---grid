@@ -130,24 +130,18 @@ div{
 }
 
 }
-
-
 h2{
   color:#6C63FF;
   font-size: 28px;
-  text-align: center;
-}
+  text-align: center}
 p{
   line-height: 2em;
   height: 150px;
-  color:#695a5a;
-
-}
+  color:#695a5a;}
 .divButton {
   display: flex;
   align-items: center;
   justify-content: center;
-}
   .divButton button{
   background-color:#6c64ff;
   border:none;
@@ -157,8 +151,7 @@ p{
   font-weight: bold;
   border-radius: 5px;
   margin:auto;
-  transition: 500ms;
-}
+  transition: 500ms}
 .divButton button:hover{
   background-color:#8c88f0;
   color:black;
