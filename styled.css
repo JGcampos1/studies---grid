@@ -4,6 +4,7 @@ body{
 h1{
   text-align: center;
   color:#383838;
+  border-bottom:solid 1px #c5c5c5;
 }
 
 *, *:before, *:after {
@@ -11,24 +12,19 @@ h1{
   -moz-box-sizing: border-box; 
   box-sizing: border-box;
 }
-
-
 .container {
   width: 960px;
 	margin: 0 auto;
 	padding: 0px;
 	position: relative;
 }
-
 .container:after, .container:before {
 	content: " ";
 	display: table;
 }
-
 .container:after {
 	clear: both;
 }
-
 .grid-1, .grid-2, .grid-3, .grid-4, .grid-5, .grid-6, .grid-7, .grid-8, .grid-9, .grid-10, .grid-11, .grid-12, .grid-13, .grid-14, .grid-15, .grid-16, .grid-1-3 {
 	float: left;
 	margin-left: 10px;
@@ -133,36 +129,38 @@ div{
 h2{
   color:#6C63FF;
   font-size: 28px;
-  text-align: center}
+  text-align: center;
+}
 p{
   line-height: 2em;
   height: 150px;
-  color:#695a5a;}
+  color:#695a5a;
+
+}
 .divButton {
   display: flex;
   align-items: center;
   justify-content: center;
-  .divButton button{
+}
+.divButton button{
   background-color:#6c64ff;
   border:none;
   height:  50px;
   width: 150px;
   color:white;
   font-weight: bold;
+
   border-radius: 5px;
   margin:auto;
-  transition: 500ms}
+  transition: 500ms;
+}
 .divButton button:hover{
   background-color:#8c88f0;
   color:black;
 }
 
-h1{
-  border-bottom:solid 1px #c5c5c5;
-}
-.container-exemple{
-  padding:20px
-}
+
+
 .container-exemple img{
   padding: 30px;
 }
